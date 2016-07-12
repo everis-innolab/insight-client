@@ -64,6 +64,6 @@ This implementation does not cover the full [insight api](https://github.com/bit
 License
 ---------------
 
-This code is released under the MIT License. Please see [LICENSE.txt](LICENSE.txt) for the full text.
+This code is released under the MIT License. Please see [LICENSE](LICENSE) for the full text.
 
 
