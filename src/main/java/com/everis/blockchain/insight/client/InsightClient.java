@@ -12,7 +12,8 @@ import si.mazi.rescu.Interceptor;
 import si.mazi.rescu.RestProxyFactory;
 
 /**
- *
+ * Insight Client façade
+ * 
  * @author mrmx
  */
 public class InsightClient {
@@ -68,7 +69,7 @@ public class InsightClient {
 
     /**
      *
-     * @return
+     * @returnpackagepackage
      */
     public Status getStatus() {
         return getService().getStatus();
