@@ -33,6 +33,8 @@ Usage
 
 #### Sample code:
 
+``` java
+
     import com.everis.blockchain.insight.client;
     
     ...
@@ -51,6 +53,7 @@ Usage
     Address addr = client.getAddress("mw5AsMPN1gVrngXS4g3dWXbS1ajQWgszRP");
     System.out.println("Addr:" + addr);
     System.out.println("Addr tx count:" + addr.getTransactions().size());
+```
 
 Contributions
 ---------------
