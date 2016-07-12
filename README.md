@@ -6,7 +6,7 @@ Pure java client implementation of [Bitpay](https://bitpay.com)'s [Insight](http
 
 Dependencies
 ---------------
-- [Rescu](https://github.com/mmazi/rescu) (Lean JAX-RX implementation) - [Pending pull request](https://github.com/mrmx/rescu) -
+- [Rescu](https://github.com/mmazi/rescu) (Lean JAX-RX json based rest implementation)
 - Slf4j (via [Logback](http://logback.qos.ch))
 - Apache's commons-lang
 - Google's [Guava](https://github.com/google/guava)
@@ -20,6 +20,7 @@ Features and benefits
 
 Work in progress (aka limitations)
 --------------- 
+- Publish to Maven's Central
 - Single parameter support
 - Read-only (eg: no TX broadcast submit support)
 - Relies on rescu's http and related exceptions
