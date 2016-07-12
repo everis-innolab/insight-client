@@ -35,7 +35,7 @@
         <dependency>
             <groupId>com.github.mmazi</groupId>
             <artifactId>rescu</artifactId>
-            <!-- Pending pull request from https://github.com/mrmx/rescu -->
+            <!-- Needs latest version from github https://github.com/mmazi/rescu -->
             <version>1.8.2-SNAPSHOT</version>
         </dependency>
         
