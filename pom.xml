@@ -38,13 +38,6 @@
             <!-- Pending pull request from https://github.com/mrmx/rescu -->
             <version>1.8.2-SNAPSHOT</version>
         </dependency>
-
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.5.0</version>
-        </dependency>
-        
         
         <dependency>
             <groupId>commons-lang</groupId>
