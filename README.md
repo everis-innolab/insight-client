@@ -4,7 +4,6 @@ Java Insight Client
 Pure java client implementation of [Bitpay](https://bitpay.com)'s [Insight](https://insight.is) blockchain rest [API](https://github.com/bitpay/insight-api).
 
 
-
 Dependencies
 ---------------
 - [Rescu](https://github.com/mmazi/rescu) (Lean JAX-RX implementation) - [Pending pull request](https://github.com/mrmx/rescu) -
@@ -15,8 +14,18 @@ Dependencies
 Features and benefits
 ---------------
 
-- Small core.
+- Small core
 - Pure java api and model (Jackson's data-bind annotated pojo's)
+
+
+Work in progress (aka limitations)
+--------------- 
+- Single parameter support
+- Read-only (eg: no TX broadcast submit support)
+- Relies on rescu's http and related exceptions
+- No pagination support
+- Websockets
+
 
 Usage
 ---------------
@@ -45,7 +54,7 @@ Usage
 Contributions
 ---------------
 
-This implementation does not cover the full [insight api](https://github.com/bitpay/insight-api) so any contribution is very much appreciated! 
+This implementation does not cover the full [insight api](https://github.com/bitpay/insight-api) (see limitations above) so any contribution is very much appreciated! 
 
 
 License
